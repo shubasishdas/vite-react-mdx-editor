@@ -1,0 +1,13 @@
+@tailwind base;
+
+@layer base {
+  ol {
+    @apply list-decimal ps-10 ms-0 me-0 my-4;
+  }
+  ul {
+    @apply block list-disc ps-10 ms-0 me-0 my-4;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
